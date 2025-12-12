@@ -1,0 +1,102 @@
+<!-- Advanced Dashboard Card Layout — “Profile / Project Cards”
+1. Dashboard container
+
+Full width (w-full)
+
+Max width large enough for desktops (max-w-7xl)
+
+Centered horizontally (mx-auto)
+
+Padding around the section (p-6)
+
+Optional: a light background for the dashboard (bg-gray-50)
+
+2. Grid layout
+
+Turn the container into a grid
+
+Add gaps between items (gap-6)
+
+Responsive columns:
+
+Mobile → 1 column
+
+Tablet → 2 columns
+
+Desktop → 3 columns
+
+Extra large → 4 columns (optional)
+
+3. Card container
+
+Each card should:
+
+Have rounded corners (rounded-xl)
+
+Have shadow (shadow-lg)
+
+Overflow hidden (for rounded image corners)
+
+Add padding (p-4 or p-5)
+
+Have hover effect to scale (hover:scale-105 + transition-transform)
+
+Background white (bg-white)
+
+4. Card layout (flex inside grid item)
+
+Divide the card horizontally on medium+ screens: image on left, content on right
+
+Use md:flex to make this responsive
+
+On mobile, stack image on top, content below
+
+5. Card image
+
+Image occupies:
+
+Full width on mobile (w-full)
+
+Fixed width on desktop (md:w-48)
+
+Height: fixed (h-48 on mobile, md:h-full on desktop)
+
+Cropped nicely (object-cover)
+
+6. Card content
+
+Vertical padding (p-4 or p-5)
+
+Title: bold, prominent (font-bold text-lg)
+
+Subtitle: smaller, muted (text-gray-500)
+
+Description: paragraph with spacing (mt-2 text-gray-700)
+
+Footer button aligned below content:
+
+Rounded (rounded-full)
+
+Background color (bg-indigo-500)
+
+Hover effect (hover:bg-indigo-600)
+
+Padding (px-4 py-2)
+
+7. Optional additions for complexity
+
+Add status badge (like “Active” / “Completed”) on top-right corner of the card
+
+Use absolute + top-2 right-2 inside a relative card
+
+Badge styling: rounded, colored background, small text
+
+8. Responsive behavior
+
+Grid adjusts columns according to screen width
+
+Cards scale independently on hover without affecting neighbors
+
+Images and content stack nicely on mobile
+
+Buttons remain visible and clickable -->
