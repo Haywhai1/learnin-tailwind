@@ -1,0 +1,88 @@
+<!-- Full Dashboard Card Exercise (Words)
+1. Dashboard Container
+
+Make a parent full-width section.
+
+Add max width for very large screens.
+
+Center the container horizontally.
+
+Add padding on all sides.
+
+2. Grid Layout
+
+Turn the container into a grid.
+
+Add gap between items.
+
+Responsive columns:
+
+Small screens → 1 column
+
+Medium screens → 2 columns
+
+Large screens → 3 columns
+
+3. Card Container
+
+Each grid item is a card.
+
+Card should have:
+
+Rounded corners
+
+Shadow
+
+White background
+
+Overflow hidden
+
+Padding inside
+
+Hover effect to scale slightly
+
+4. Card Content
+
+Top of the card: image
+
+Full width of the card
+
+Fixed height
+
+Object-fit so it crops nicely
+
+Below the image: text content
+
+Title → bold, noticeable
+
+Subtitle → smaller, muted
+
+Paragraph → description
+
+Bottom of the card: button
+
+Rounded
+
+Background color
+
+Hover effect
+
+5. Responsive Behavior
+
+Cards resize automatically with screen width.
+
+Text and buttons remain readable.
+
+Grid columns adjust based on breakpoints.
+
+💡 How to think in Tailwind while writing HTML:
+
+Start with container → grid → cards
+
+Decide how many columns at each screen size
+
+Add gap between cards
+
+Style each card individually with rounded corners, shadow, and overflow
+
+Add image + content + button inside the card -->
