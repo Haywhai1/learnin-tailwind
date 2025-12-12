@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styling.css" />
+    <title>Responsive design</title>
+  </head>
+  <body>
+    <h1 class="text-red-500">Breaking Points</h1>
+
+    <!-- There are five breakpoints by default, inspired by common device
+    resolutions: 
+    sm 40rem (640px) @media(width >= 40rem) { ... } 
+    md 48rem (768px) @media (width >= 48rem) { ... } 
+    lg 64rem (1024px) @media (width >= 64rem) { ... } 
+    xl 80rem (1280px) @media(width >= 80rem) { ... } 
+    2xl 96rem (1536px) @media (width >= 96rem) { ... } -->
+
+    <div
+      class="mx-auto max-w-md sm:max-w-xl overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl"
+    >
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img
+            class="h-48 w-full object-cover md:h-full md:w-48"
+            src="/images/building.jpeg"
+            alt="Modern building architecture"
+          />
+        </div>
+        <div class="p-8">
+          <div
+            class="text-sm font-semibold tracking-wide text-indigo-500 uppercase"
+          >
+            Company retreats
+          </div>
+          <a
+            href="#"
+            class="mt-1 block text-lg leading-tight font-medium text-black hover:underline"
+          >
+            Incredible accommodation for your team
+          </a>
+          <p class="mt-2 text-gray-500">
+            Looking to take your team away on a retreat to enjoy awesome food
+            and take in some sunshine? We have a list of places to do just that.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <div class="max-w-xl mx-auto bg-white p-4">
+        <p>card</p>
+        <p>
+          Looking to take your team away on a retreat to enjoy awesome food and
+          take in some sunshine? We have a list of places to do just that.
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-md bg-gray-200">
+      <img class="w-full max-w-md" src="/images/building.jpeg" />
+    </div>
+
+    <div class="w-full flex justify-center bg-gray-200">
+      <div class="max-w-sm bg-white">this is the child</div>
+    </div>
+
+    <div class="w-40 bg-red-200">
+      <div class="w-full max-w-md">child</div>
+    </div>
+
+    <div class="max-w-md bg-gray-100 md:max-w-2xl mx-auto p-5 m-2">
+      Looking to take your team away on a retreat to enjoy awesome food and take
+      in some sunshine? We have a list of places to do just that.
+    </div>
+
+    <div
+      class="max-w-md md:max-w-2xl mx-auto bg-gray-100 rounded-xl shadow-md p-5"
+    >
+      <div class="md:flex">
+        <div>
+          <img class="w-full md:w-48 h-48 md:h-full  object-cover" src="/images/building.jpeg" alt="" />
+        </div>
+        <div class="p-8">
+            <div class="text-indigo-500 uppercase">gpt exercise</div>
+            <h1 class="text-lg font-medium text-black">I hope i got it right</h1>
+            <p class="text-gray-500">Rate me!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
