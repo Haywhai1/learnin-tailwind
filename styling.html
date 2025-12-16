@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+  tailwind.config = { darkMode: 'class' };
+</script>
+    <script src="index.js" defer></script>
   </head>
   <body>
+    <button id="theme-toggle" class="px-4 py-2 bg-gray-400 dark:bg-gray-600 text-black dark:text-white rounded">
+  Toggle Theme
+</button>
+
     <div
       class="mx-auto flex max-w-sm items-center gap-4 rounded-xl bg-slate-900 p-6 shadow-lg shadow-black/30"
     >
@@ -25,7 +33,7 @@
 
 
     <div
-      class=" max-w-lg flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ..."
+      class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ..."
     >
       <img
         class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0"
@@ -44,5 +52,27 @@
         </button>
       </div>
     </div>
+
+    <button class="bg-sky-500 disabled:hover:bg-sky-700 ...">Save changes</button>
+
+    <div class="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">
+  <div>
+    <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-2 shadow-lg">
+      <svg
+        class="h-6 w-6 text-white"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        aria-hidden="true"
+      >
+        <!-- ... -->
+      </svg>
+    </span>
+  </div>
+  <h3 class="text-gray-900 dark:text-white mt-5 text-base font-medium tracking-tight ">Writes upside-down</h3>
+  <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm ">
+    The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+  </p>
+</div>
   </body>
 </html>
